@@ -1,2 +1,0 @@
-$XPath = '*[System[(EventID=4616 or EventID=4616 or EventID=4624 or EventID=4625 or EventID=4648 or EventID=4657 or EventID=4672 or EventID=4688 or EventID=4720 or EventID=4723 or EventID=4724 or EventID=4728 or EventID=4729 or EventID=4732 or EventID=4733 or EventID=4746 or EventID=4747 or EventID=4751 or EventID=7045)]]'
-Get-WinEvent -LogName 'Application' -FilterXPath $XPath | Out-File C:\Users\IsaiahLanger\Desktop\testevents4.txt
